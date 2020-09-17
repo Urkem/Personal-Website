@@ -1,25 +1,22 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Uroš Milovanović | Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar/>
 
-      <footer className={styles.footer}>
+      <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/Uros_Milovanovic_CV.pdf"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/vercel.svg" alt="Vercel Logo" />
         </a>
       </footer>
     </div>
