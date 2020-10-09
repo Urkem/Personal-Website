@@ -15,36 +15,13 @@ a {
   box-sizing: border-box;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: .15em;
-  font-weight: 700;
-}
-
-nav ul li a {
-  padding: 1em;
-}
-
-nav ul li a:hover {
-  background-color: #f1f1f1;
-  color: skyblue;
-}
-
-.push-right {
-  margin-left: auto;
-}
-
 .border-bottom {
   border-bottom-width: 1px;
   border-bottom-color: #a7a7a7;
   border-bottom-style: solid;
 }
 
-.containerMain {
+.grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 5px;
@@ -60,20 +37,6 @@ nav ul li a:hover {
 
 
 @media screen and (max-width: 600px) {
-  nav ul {
-    display: block;
-    margin: 0;
-  }
-  nav ul li {
-    border-bottom-width: 1px;
-    border-bottom-color: #a7a7a7;
-    border-bottom-style: solid;
-    padding: 0.5em;
-  }
-  nav ul li a {
-    padding: 0.5em;
-  }
-  
   .about {
     grid-column: 2 / 7;
   }
