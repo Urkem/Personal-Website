@@ -1,0 +1,25 @@
+.footerel {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #a7a7a7;
+    padding: 0.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    color: #a7a7a7;
+    width: 50%;
+    display: inline-block;
+}
+
+.icons {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.iconlink {
+    padding: 0.33em;
+}

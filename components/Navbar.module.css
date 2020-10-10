@@ -33,7 +33,7 @@
       border-bottom-style: solid;
       padding: 0.5em;
     }
-
+    /* this class is used to separate navbar elements its func the same as navelement*/
     .pushright {
         border-bottom-width: 1px;
         border-bottom-color: #a7a7a7;

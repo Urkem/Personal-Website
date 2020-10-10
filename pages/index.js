@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className="full">
       <Head>
         <title>Uroš Milovanović | Home</title>
         <link rel="icon" href="/favicon.ico" />
@@ -51,7 +51,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/?hl=en" target="_blank" className={styles.contactLink}>
+            <a href="" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
                 <AiOutlineLinkedin/>
               </i>
@@ -59,7 +59,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/?hl=en" target="_blank" className={styles.contactLink}>
+            <a href="https://www.instagram.com/urkem98" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
                 <AiOutlineInstagram/>
               </i>
@@ -67,7 +67,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-          <a href="https://www.instagram.com/?hl=en" target="_blank" className={styles.contactLink}>
+          <a href="https://www.facebook.com/profile.php?id=100014389667038" target="_blank" className={styles.contactLink}>
             <i className={styles.contactIcon}>
               <AiOutlineFacebook/>
             </i>
