@@ -11,7 +11,7 @@ export default function Home() {
     <div className="full">
       <Head>
         <title>Uroš Milovanović | Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navbar/>
