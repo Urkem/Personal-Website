@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar/>
 
       <header className={styles.containerHeader}>
-        <img src="/Profile_pic.png" className={styles.profile}/>
+        <img src="/profile-bw-web.jpg" className={styles.profile}/>
         <a href="">
           <h1 className={styles.name}>Uroš Milovanović</h1>
         </a>
