@@ -22,7 +22,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className={styles.navelement}>
-                    <Link href="/">
+                    <Link href="/projects">
                         <a className={styles.navlink}>
                             Projects
                         </a>
