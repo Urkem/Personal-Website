@@ -32,9 +32,10 @@ export default function Home() {
             About Me
           </h3>
           <p>
-            My primary interest lies in doing computer related projects
-            form tinkering with linux on a raspberry pi to solving problems on LeetCode.com. 
-            I’m also an avid community member of many technology subreddits (r/buildapc, r/dailyprogrammer, r/selfhosted...).
+          Data science student from Serbia. Currently pursuing 
+          a bachelor's degree from University of Novi Sad and managing multiple game servers(Minecraft, TF2). 
+          Also participate in various software engineering events(Internships, Hackathons, Projects). 
+          My primary interests: machine learning, linux server administration and web development.
           </p>
         </div>
 

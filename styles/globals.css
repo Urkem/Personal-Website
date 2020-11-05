@@ -35,6 +35,7 @@ a {
 
 .about {
   grid-column: 3 / 5;
+  margin-right: 2em;
 }
 
 .contact {
@@ -45,6 +46,7 @@ a {
 @media screen and (max-width: 600px) {
   .about {
     grid-column: 2 / 7;
+    margin-right: 0;
   }
   
   .contact {
