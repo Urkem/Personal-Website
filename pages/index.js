@@ -32,10 +32,10 @@ export default function Home() {
             About Me
           </h3>
           <p>
-          Data science student from Serbia. Currently pursuing 
-          a bachelor's degree from University of Novi Sad and managing multiple game servers(Minecraft, TF2). 
-          Also participate in various software engineering events(Internships, Hackathons, Projects). 
-          My primary interests: machine learning, linux server administration and web development.
+          Data science student from Serbia. Currently pursuing a bachelor's degree 
+          from the University of Novi Sad and managing multiple game (Minecraft, TF2) servers. 
+          Also participate in various software engineering events (Hackathons, Conferences) and internships. 
+          My primary interests: machine learning, Linux server administration and web development. 
           </p>
         </div>
 
