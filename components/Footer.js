@@ -13,7 +13,7 @@ function Navbar() {
                 <a className={styles.iconlink} href="https://gitlab.com/urkem" >
                     <AiOutlineGitlab/>
                 </a>
-                <a className={styles.iconlink} href="https://www.linkedin.com/in/uro%C5%A1-milovanovi%C4%87-153a36201/" >
+                <a className={styles.iconlink} href="https://www.linkedin.com/in/urosmilovanovic/" >
                     <AiOutlineLinkedin/>
                 </a>
                 <a className={styles.iconlink} href="https://www.instagram.com/urkem98" >

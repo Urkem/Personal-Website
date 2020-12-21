@@ -52,7 +52,7 @@ export default function Home() {
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/uro%C5%A1-milovanovi%C4%87-153a36201/" target="_blank" className={styles.contactLink}>
+            <a href="https://www.linkedin.com/in/urosmilovanovic/" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
                 <AiOutlineLinkedin/>
               </i>
