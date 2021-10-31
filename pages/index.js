@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className={styles.name}>Uroš Milovanović</h1>
         </a>
         <a>
-          <h2 className={styles.title} >Software Developer & Linux enthusiast</h2>
+          <h2 className={styles.title} >Machine Learning Engineer & Linux enthusiast</h2>
         </a>
       </header>
 
