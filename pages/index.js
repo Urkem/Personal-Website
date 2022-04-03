@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineInstagram, AiOutlineMedium, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
 
 
 import styles from '../styles/Home.module.css'
@@ -35,7 +35,7 @@ export default function Home() {
           Machine learning engineer from Serbia. Currently pursuing 
           a Masters's degree from the University of Novi Sad and working at Synechron as a machine learning engineer. 
           Also take part in various hackathons and conferences.
-          Main interests: Machine learning, Web development and Cloud computing.
+          Main interests: Machine learning, Cloud computing and Web development.
           </p>
         </div>
 
@@ -68,12 +68,12 @@ export default function Home() {
             </a>
           </div>
           <div>
-          <a href="https://www.facebook.com/profile.php?id=100014389667038" target="_blank" className={styles.contactLink}>
-            <i className={styles.contactIcon}>
-              <AiOutlineFacebook/>
-            </i>
-            <span className={styles.contactText} >Facebook</span>
-          </a>
+            <a href="https://medium.com/@urkem98" target="_blank" className={styles.contactLink}>
+              <i className={styles.contactIcon}>
+                <AiOutlineMedium/>
+              </i>
+              <span className={styles.contactText} >Medium</span>
+            </a>
           </div>
           <div>
             <a href="mailto:urkem98@gmail.com" target="_blank" className={styles.contactLink}>

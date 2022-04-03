@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css'
-import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineInstagram, AiOutlineMedium, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
 
 
 function Navbar() {
@@ -19,8 +19,8 @@ function Navbar() {
                 <a className={styles.iconlink} href="https://www.instagram.com/urkem98" >
                     <AiOutlineInstagram/>
                 </a>
-                <a className={styles.iconlink} href="https://www.facebook.com/profile.php?id=100014389667038" >
-                    <AiOutlineFacebook/>
+                <a className={styles.iconlink} href="https://medium.com/@urkem98" >
+                    <AiOutlineMedium/>
                 </a>
                 <a className={styles.iconlink} href="mailto:urkem98@gmail.com" >
                     <AiOutlineMail/>
