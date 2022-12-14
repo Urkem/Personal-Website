@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className={styles.name}>Uroš Milovanović</h1>
         </a>
         <a>
-          <h2 className={styles.title} >Machine Learning Engineer & Linux enthusiast</h2>
+          <h2 className={styles.title} >Python Developer / Machine Learning Engineer</h2>
         </a>
       </header>
 
@@ -32,10 +32,11 @@ export default function Home() {
             About Me
           </h3>
           <p>
-          Machine learning engineer from Serbia. Currently pursuing 
-          a Masters's degree from the University of Novi Sad and working at Synechron as a machine learning engineer. 
-          Also take part in various hackathons and conferences.
-          Main interests: Machine learning, Cloud computing and Web development.
+          Experienced Python Developer / Machine Learning Engineer with demonstrated history in development
+          and deployment of data science solutions while working in a 
+          distributed team environment, following Agile/Scrum methodology. 
+          Strong knowledge in Chatbot Development, Machine learning,
+          Natural Language Processing, Time Series Analysis and AWS Cloud.
           </p>
         </div>
 
