@@ -32,7 +32,7 @@ export default function Home() {
             About Me
           </h3>
           <p>
-          Experienced Python Developer / Machine Learning Engineer with demonstrated history in development
+          Experienced Python Developer with demonstrated history in development
           and deployment of data science solutions while working in a 
           distributed team environment, following Agile/Scrum methodology. 
           Strong knowledge in Chatbot Development, Machine learning,

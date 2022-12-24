@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <footer className={styles.footerel}>
             <div className={styles.copyright}>
-                © 2020 Uroš Milovanović
+                © 2020-2023 Uroš Milovanović
             </div>
             <div className={styles.icons}>
                 <a className={styles.iconlink} href="https://gitlab.com/urkem" >

@@ -19,6 +19,20 @@ export default function projects() {
           <h1 className={styles.title}>Projects</h1>
       </header>
       <main className={styles.grid}>
+      <div className={styles.projectItem}>
+            <div className={styles.projectImg}>
+                <img src="eximia.svg" className={styles.projectPic}/>
+            </div>
+            <div className={styles.projectText}>
+                <h2 className={styles.projectTitle}>Eximia One</h2>
+                <a href="https://gitlab.com/urkem/personal_website" target="_blank" className={styles.projectLink}>
+                    https://Eximia.one
+                </a>
+                <p className={styles.projectParagraf} >
+                    Building a wide range of APIs that developers love to use.
+                </p>
+            </div>
+        </div>
         <div className={styles.projectItem}>
             <div className={styles.projectImg}>
                 <img src="favicon.svg" className={styles.projectPic}/>
