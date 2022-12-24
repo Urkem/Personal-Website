@@ -25,8 +25,8 @@ export default function projects() {
             </div>
             <div className={styles.projectText}>
                 <h2 className={styles.projectTitle}>Eximia One</h2>
-                <a href="https://gitlab.com/urkem/personal_website" target="_blank" className={styles.projectLink}>
-                    https://Eximia.one
+                <a href="https://eximia.one" target="_blank" className={styles.projectLink}>
+                    https://eximia.one
                 </a>
                 <p className={styles.projectParagraf} >
                     Building a wide range of APIs that developers love to use.
