@@ -74,7 +74,7 @@ export default function Home() {
               <i className={styles.contactIcon}>
                 <FaDev/>
               </i>
-              <span className={styles.contactText} >DEV.to</span>
+              <span className={styles.contactText} >DEV</span>
             </a>
           </div>
           <div>
