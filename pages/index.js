@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import {AiOutlineInstagram, AiOutlineMedium, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
+import {AiFillInstagram, AiFillGitlab, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
+import {FaDev} from 'react-icons/fa'
 
 
 import styles from '../styles/Home.module.css'
@@ -47,7 +48,7 @@ export default function Home() {
           <div>
             <a href="https://gitlab.com/urkem" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiOutlineGitlab/>
+                <AiFillGitlab/>
               </i>
               <span className={styles.contactText} >GitLab</span>
             </a>
@@ -55,7 +56,7 @@ export default function Home() {
           <div>
             <a href="https://www.linkedin.com/in/urosmilovanovic/" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiOutlineLinkedin/>
+                <AiFillLinkedin/>
               </i>
               <span className={styles.contactText} >LinkedIn</span>
             </a>
@@ -63,23 +64,23 @@ export default function Home() {
           <div>
             <a href="https://www.instagram.com/urkem98" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiOutlineInstagram/>
+                <AiFillInstagram/>
               </i>
               <span className={styles.contactText} >Instagram</span>
             </a>
           </div>
           <div>
-            <a href="https://medium.com/@urkem98" target="_blank" className={styles.contactLink}>
+            <a href="https://dev.to/urkem" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiOutlineMedium/>
+                <FaDev/>
               </i>
-              <span className={styles.contactText} >Medium</span>
+              <span className={styles.contactText} >DEV.to</span>
             </a>
           </div>
           <div>
             <a href="mailto:urkem98@gmail.com" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiOutlineMail/>
+                <AiFillMail/>
               </i>
               <span className={styles.contactText} >Email</span>
             </a>
