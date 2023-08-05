@@ -24,7 +24,7 @@ export default function Home() {
           <h1 className={styles.name}>Uroš Milovanović</h1>
         </a>
         <a>
-          <h2 className={styles.title} >Python Developer / Machine Learning Engineer</h2>
+          <h2 className={styles.title} >Software Engineer</h2>
         </a>
       </header>
 
@@ -34,11 +34,13 @@ export default function Home() {
             About Me
           </h3>
           <p>
-          Experienced Python Developer with demonstrated history in development
-          and deployment of data science solutions while working in a 
-          distributed team environment, following Agile/Scrum methodology. 
-          Strong knowledge in Chatbot Development, Machine learning,
-          Natural Language Processing, Time Series Analysis and AWS Cloud.
+          As a Software Engineer, my primary skills lie in Algorithms and Data Structures,
+          with experience in Machine Learning and Natural Language Processing.
+          I am passionate about leveraging technology to solve real-world challenges
+          and have a proven track record of successfully solving intricate problems with
+          cutting-edge technologies. In addition to this,
+          I have practical knowledge in Cloud Computing,
+          leveraging platforms like AWS to deploy robust and scalable applications.
           </p>
         </div>
 
