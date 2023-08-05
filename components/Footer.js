@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Footer.module.css'
-import {AiOutlineInstagram, AiOutlineMedium, AiOutlineGitlab, AiOutlineLinkedin, AiOutlineMail} from 'react-icons/ai'
-
+import {AiFillInstagram, AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
+import {FaDev} from 'react-icons/fa'
 
 function Navbar() {
     return (
@@ -10,20 +10,20 @@ function Navbar() {
                 © 2020-2023 Uroš Milovanović
             </div>
             <div className={styles.icons}>
-                <a className={styles.iconlink} href="https://gitlab.com/urkem" >
-                    <AiOutlineGitlab/>
+                <a className={styles.iconlink} href="https://github.com/Urkem" >
+                    <AiFillGithub/>
                 </a>
                 <a className={styles.iconlink} href="https://www.linkedin.com/in/urosmilovanovic/" >
-                    <AiOutlineLinkedin/>
+                    <AiFillLinkedin/>
                 </a>
                 <a className={styles.iconlink} href="https://www.instagram.com/urkem98" >
-                    <AiOutlineInstagram/>
+                    <AiFillInstagram/>
                 </a>
-                <a className={styles.iconlink} href="https://medium.com/@urkem98" >
-                    <AiOutlineMedium/>
+                <a className={styles.iconlink} href="https://dev.to/urkem" >
+                    <FaDev/>
                 </a>
                 <a className={styles.iconlink} href="mailto:urkem98@gmail.com" >
-                    <AiOutlineMail/>
+                    <AiFillMail/>
                 </a>
             </div>
         </footer>
