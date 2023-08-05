@@ -53,7 +53,7 @@ export default function Home() {
               <i className={styles.contactIcon}>
                 <AiFillGithub/>
               </i>
-              <span className={styles.contactText} >GitLab</span>
+              <span className={styles.contactText} >GitHub</span>
             </a>
           </div>
           <div>
