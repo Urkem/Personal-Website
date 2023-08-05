@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import {AiFillInstagram, AiFillGitlab, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
+import {AiFillInstagram, AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import {FaDev} from 'react-icons/fa'
 
 
@@ -49,9 +49,9 @@ export default function Home() {
             Contact
           </h3>
           <div>
-            <a href="https://gitlab.com/urkem" target="_blank" className={styles.contactLink}>
+            <a href="https://github.com/Urkem" target="_blank" className={styles.contactLink}>
               <i className={styles.contactIcon}>
-                <AiFillGitlab/>
+                <AiFillGithub/>
               </i>
               <span className={styles.contactText} >GitLab</span>
             </a>
