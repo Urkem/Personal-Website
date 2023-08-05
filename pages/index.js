@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Uroš Milovanović | Home</title>
         <link rel="icon" href="/favicon.svg" />
+        <script async src="https://dashboard.eximia.one/script.js" data-website-id="c966c189-dbef-4238-b8e2-0fedef7de2e9"></script>
       </Head>
 
       <Navbar/>
