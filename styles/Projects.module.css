@@ -71,12 +71,4 @@
   .projectItem {
     grid-column: 1 / 10;
   }
-
-  .projectImg {
-    grid-column: 1 / 4;
-  }
-
-  .projectText {
-    grid-column: 1 / 4;
-  }
 }
