@@ -33,6 +33,7 @@
 }
 
 .projectPic {
+  max-height: 120px;
   width: 80%;
 }
 
