@@ -25,7 +25,7 @@
 
   grid-template-columns: repeat(3, 33%);
   grid-column: 4 / 7;
-
+  max-height: 140px;
 
   border-bottom-color: black;
   border-bottom-style: solid;
