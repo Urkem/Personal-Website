@@ -39,8 +39,8 @@ export default function projects() {
             </div>
             <div className={styles.projectText}>
                 <h2 className={styles.projectTitle}>Personal Website</h2>
-                <a href="https://gitlab.com/urkem/personal_website" target="_blank" className={styles.projectLink}>
-                    https://gitlab.com/urkem/personal_website
+                <a href="https://github.com/Urkem/Personal-Website" target="_blank" className={styles.projectLink}>
+                    https://github.com/Urkem/Personal-Website
                 </a>
                 <p className={styles.projectParagraf} >
                     I built all the pages you're looking at now using Next.js.
